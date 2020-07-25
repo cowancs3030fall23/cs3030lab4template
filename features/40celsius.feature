@@ -1,3 +1,5 @@
+@announce-output
+
 Feature: Convert Celsius to Fahrenheit
 	Scenario: Convert Celsius to Fahrenheit
         When I run `temp` interactively

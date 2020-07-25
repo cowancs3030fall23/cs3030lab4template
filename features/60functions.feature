@@ -1,3 +1,5 @@
+@announce-output
+
 Feature: 
 	Scenario: fahrenheitToCelsius() is defined and used
 		When I run `cat ../../bin/temp`

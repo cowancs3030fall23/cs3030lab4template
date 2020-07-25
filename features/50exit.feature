@@ -1,3 +1,5 @@
+@announce-output
+
 Feature: Exit program
 	Scenario: Exit program with menu option 3
 		When I run `temp` interactively

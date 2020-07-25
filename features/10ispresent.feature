@@ -1,3 +1,5 @@
+@announce-output
+
 Feature: Script must be named "temp", present and be marked as executable
 	Scenario: temp must be found
 		When I run `getfile` 
