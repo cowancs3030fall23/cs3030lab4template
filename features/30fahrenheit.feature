@@ -1,4 +1,4 @@
-@announce-output
+#@announce-output
 
 Feature: Convert Fahrenheit to Celsius
 	Scenario: Convert Fahrenheit to Celsius

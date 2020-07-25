@@ -1,4 +1,4 @@
-@announce-output
+#@announce-output
 
 Feature: Program menu output should be correct
 	Scenario: program prints the correct welcome message

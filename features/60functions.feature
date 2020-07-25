@@ -1,4 +1,4 @@
-@announce-output
+#@announce-output
 
 Feature: 
 	Scenario: fahrenheitToCelsius() is defined and used

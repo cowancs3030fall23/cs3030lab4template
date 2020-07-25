@@ -1,4 +1,4 @@
-@announce-output
+#@announce-output
 
 Feature: Alpha characters should not crash the program
 	Scenario: Menu should survive being handed a non-number
