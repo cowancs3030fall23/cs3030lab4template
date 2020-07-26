@@ -32,5 +32,6 @@ Feature: Convert Celsius to Fahrenheit
 		And I type "3"
 		Then the output should match /-5533.6\b/
 
+        And OUTPUT is printed
 		Then 10 points are awarded
 

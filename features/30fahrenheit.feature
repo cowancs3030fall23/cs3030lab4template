@@ -27,5 +27,6 @@ Feature: Convert Fahrenheit to Celsius
 		And I type "2000.3"
 		And I type "3"
 		Then the output should match /1093.5\b/
+        And OUTPUT is printed
 		Then 10 points are awarded
 

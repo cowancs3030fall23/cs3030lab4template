@@ -1,9 +1,10 @@
-#@announce-output
+#@announce-stderr
 
 Feature: Program menu output should be correct
 	Scenario: program prints the correct welcome message
 		When I run `temp` interactively
 		And I type "3"
+        And OUTPUT is printed
 		And the output should match:
 		"""
 		Welcome to the CS 3030 Temperature Conversion Program
@@ -22,5 +23,6 @@ Feature: Program menu output should be correct
 		\s*
 		\s*Please enter 1.*2.*3
 		"""
+        And OUTPUT is printed
 		Then 5 points are awarded
 		

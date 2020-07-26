@@ -8,6 +8,7 @@ Feature: Alpha characters should not crash the program
 		And I type "3"
 		And I type "3"
 		Then the output should not contain "ValueError"
+        And OUTPUT is printed
 		Then 10 points are awarded
 
 	Scenario: Celsius survives a non-number
@@ -17,6 +18,7 @@ Feature: Alpha characters should not crash the program
 		And I type "3"
 		And I type "3"
 		Then the output should not contain "ValueError"
+        And OUTPUT is printed
 		Then 10 points are awarded
 
 	Scenario: Fahrenheit survives a non-number
@@ -26,5 +28,6 @@ Feature: Alpha characters should not crash the program
 		And I type "3"
 		And I type "3"
 		Then the output should not contain "ValueError"
+        And OUTPUT is printed
 		Then 10 points are awarded
 
